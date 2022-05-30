@@ -379,3 +379,7 @@ a:hover {
     color: rgb(254,96,56);
 }
 /* ADDITIONAL styles to illustrate an exampe */
+
+.category{
+    text-align: center;
+}
