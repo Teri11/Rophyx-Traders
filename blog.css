@@ -178,7 +178,7 @@ z-index: 999;
 .category-link{
   text-decoration: none;
   text-transform: uppercase;
-  color: #b59f5b;
+  color: rgb(254,96,56);
 }
 
 .category-link:hover{
@@ -248,7 +248,7 @@ z-index: 999;
   height: 3px;
   top: 28px;
   left: 106px;
-  background-color: #b59f5b; 
+  color: rgb(254,96,56); 
 }
 
 .latest-post{
@@ -282,7 +282,7 @@ z-index: 999;
 }
 
 .latest-post-title:hover{ 
-  color: #b59f5b;
+    color: rgb(254,96,56);
 }
 
 .form-search{
@@ -309,7 +309,7 @@ z-index: 999;
   background-repeat: no-repeat;
   width: 48px;
   height: 48px;
-  background-color: #b59f5b;
+  color: rgb(254,96,56);
   background-position: center center;
   background-size: 18px;
   border: none;
@@ -324,7 +324,7 @@ z-index: 999;
 .input-search:focus{
   outline: 0;
   outline-offset: 0;
-  border: 1px solid #b59f5b;
+  color: rgb(254,96,56);
 }
 
 .visually-hidden{
@@ -352,7 +352,7 @@ z-index: 999;
   font-size: 14px;
   color: #ffffff;
   font-weight: 700;
-  background-color: #b59f5b;
+  color: rgb(254,96,56);
   border: none;
   width: 100%;
   padding: 17px 30px;
@@ -389,7 +389,7 @@ z-index: 999;
 }
 
 .section-tags-link:hover{
-  border: 3px solid #b59f5b;
+    color: rgb(254,96,56);
 }
 
 .section-categories-items{
@@ -408,7 +408,7 @@ z-index: 999;
 }
 
 .section-categories-link:hover{
-  color: #b59f5b;
+    color: rgb(254,96,56);
 }
 
 .number{
@@ -480,14 +480,7 @@ z-index: 999;
   background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
 }
 
-.copyright{
-  display: block;
-  font-size: 12px;
-  color: #999999;
-  font-weight: 700;
-  margin-top: 70px;
-  text-decoration: none;
-}
+
 
 
   

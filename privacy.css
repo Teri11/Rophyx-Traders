@@ -1,0 +1,17 @@
+.container >h3{
+    color:black;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: bold;
+    text-align: center;
+}
+.container>h2{
+    color: black;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    text-align: center;
+}
+.container >p{
+    color: black;
+}
+.link{
+    text-decoration: none;
+}
