@@ -1,0 +1,113 @@
+@import url(//fonts.googleapis.com/css?family=Poppins);
+.satisfactiontitle {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+hr.dashed {
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='5' stroke-dasharray='3%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    width: 50%;
+    height: 2px;
+    border: 0;
+}
+
+.refundpolicytitle {
+    text-align: center;
+}
+
+.stickersanddescriptioncontainer {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.placeholderguaranteesticker {
+    height: 60px;
+    width: 60px;
+    background-color: #F24C4C;
+}
+
+.refunddesc {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+.safecheckoutstickerplaceholder {
+    height: 60px;
+    width: 60px;
+    background-color: #F24C4C;
+}
+
+.faqtitle {
+    text-align: center;
+    font-size: 2.5rem;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.p {
+    text-align: center;
+}
+
+.questionsandanswers {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.li {
+    text-align: center;
+}
+
+.refundpolicy {
+    text-align: center;
+}
+
+.li {
+    text-align: left;
+    width: 95%;
+    max-width: 600px;
+    margin-inline: auto;
+}
+
+.questionandanswercontainer {
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+
+.greennumplaceholder {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+}
+
+.questionandanswerpair {
+    background-color: white;
+    width: 80%;
+    word-wrap: break-word
+}
+
+.re {
+    text-align: center;
+}
+
+.question {
+    margin-bottom: 0;
+}
+
+.answer {
+    margin-top: 0;
+}
+
+hr.qandaseparator {
+    width: 95%;
+}
