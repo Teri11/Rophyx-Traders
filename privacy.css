@@ -1,16 +1,17 @@
 .container >h3{
     color:black;
-    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-family: "Times New Roman", Times, serif;
     font-size: bold;
     text-align: center;
 }
 .container>h2{
     color: black;
-    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
 .container >p{
     color: black;
+    font-family: "Times New Roman", Times, serif;
 }
 .link{
     text-decoration: none;
