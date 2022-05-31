@@ -4,19 +4,6 @@
     box-sizing: border-box;
 }
 
-/* body::after {
-content: "";
-display: block;
-width: 1660px;
-height: 3207px;
-background-image: url("https://raw.githubusercontent.com/netology-code/html-2-diploma/master/sources/NOEMI_Modern_ru.jpg");
-position: absolute;
-top: 0;
-left: calc(50% - 830px);
-opacity: 0.3;
-z-index: 999;
-} */
-
 @font-face{ 
   font-family: "Open Sans";
   src:url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff");
@@ -89,8 +76,6 @@ z-index: 999;
 }
 
 .container-title{
-/*   width: 1200px; */
-/*   padding: 100px 252px 0px; */
   width: 695px;
   text-align: center;
   margin-left: auto;
@@ -204,7 +189,6 @@ z-index: 999;
 .last-post-date{
   font-size: 12px;
   color: #888888;
-/*   vertical-align: top; */
 }
 
 .last-post-author{
@@ -212,7 +196,6 @@ z-index: 999;
   color: #000000;
   font-weight: 700;
   margin-left: 8px;
-/*   vertical-align: top; */
 }
 
 .last-post-text{
@@ -272,7 +255,6 @@ z-index: 999;
 }
 
 .latest-post-title{
-/*   display: block; */
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
@@ -299,7 +281,6 @@ z-index: 999;
   padding: 17px;
   border: none;
   height: 48px;
-/*   width: calc(100% - 48px); */
   width: 222px;
   background-color: #f4f7f6; 
 }
