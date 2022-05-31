@@ -73,11 +73,9 @@ main {
 
 .sidenav {
     height: 100vh;
-    /* position: fixed; */
+  
     background-color: var(--bg-primary);
-    /* background: linear-gradient(210deg,#0D4890,#42A54D); */
-    /* background: linear-gradient(210deg,#151500,#B4B4FF); */
-    /* background: linear-gradient(210deg,#A02626,#DAFE95); */
+  
     transition: width 200ms ease-in-out;
     overflow-y: auto;
     overflow-x: hidden;
@@ -149,7 +147,7 @@ ul li.toggle-all-devices:hover {
     min-height: 10rem;
 }
 .line{
-    color:white ;
+    color: rgb(254,96,56);
     font-family: 'Big Shoulders Stencil Text', cursive;
     font-size: 5rem;
     text-align: center;
@@ -282,7 +280,7 @@ h4 {
 .wrapper {
     /* height: 100%; */
     height: 100vh;
-    background: url(https://wallpaperaccess.com/full/442861.jpg) no-repeat;
+    background: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat;
     background-size: cover;
 }
 
@@ -298,11 +296,7 @@ h4 {
     height: 100%;
     will-change: transform;
     transition: transform var(--duration) ease-in-out, visibility var(--duration) linear;
-    /*   transition: all .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-      transition-property: all, background-color, border-color, box-shadow;
-      transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
-      transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
-      transition-delay: 0s, 0s, 0s, 0s; */
+  
 }
 
 aside.aside-menu a.close-nav {
@@ -368,7 +362,7 @@ aside.aside-menu a.close-nav:hover {
 
 .nav-btns a:link,
 a:visited {
-    color: white;
+    color: rgb(254,96,56);
     text-decoration: none;
     font-size: 2rem;
     font-family: 'Big Shoulders Stencil Text', cursive;

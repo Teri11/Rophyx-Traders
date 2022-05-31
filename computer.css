@@ -9,7 +9,7 @@
 }
 
 html {
-  background-color: #ecf9ff;
+  background-color: white;
 }
 
 body {
@@ -39,7 +39,7 @@ img {
 }
 
 .btn {
-  color: #ffffff;
+  color: black;
   padding: 0.8rem;
   font-size: 14px;
   text-transform: uppercase;
@@ -48,7 +48,7 @@ img {
   display: block;
   width: 100%;
   cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid black;
   background: transparent;
 }
 
@@ -92,11 +92,11 @@ img {
 
 .card_content {
   padding: 1rem;
-  background: linear-gradient(to bottom left, rgb(254,96,56)40%, #FFC39E 100%);
+  /* background: linear-gradient(to bottom left, rgb(254,96,56)40%, #FFC39E 100%); */
 }
 
 .card_title {
-  color: #ffffff;
+  color: black;
   font-size: 1.1rem;
   font-weight: 700;
   letter-spacing: 1px;
@@ -105,7 +105,7 @@ img {
 }
 
 .card_text {
-  color: #ffffff;
+  color: black;
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;    
