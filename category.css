@@ -51,6 +51,7 @@ body::-webkit-scrollbar-track,
 .sidenav::-webkit-scrollbar-track {
     background: #1e1e24;
 }
+
 body::-webkit-scrollbar-thumb,
 .sidenav::-webkit-scrollbar-thumb {
     background: linear-gradient(to bottom right, #166fe5, #00aeff);
@@ -72,9 +73,7 @@ main {
 
 .sidenav {
     height: 100vh;
-  
     background-color: var(--bg-primary);
-  
     transition: width 200ms ease-in-out;
     overflow-y: auto;
     overflow-x: hidden;
@@ -144,8 +143,9 @@ ul li.toggle-all-devices:hover {
     border-radius: 40%;
     min-height: 10rem;
 }
-.line{
-    color: rgb(254,96,56);
+
+.line {
+    color: rgb(254, 96, 56);
     font-family: 'Big Shoulders Stencil Text', cursive;
     font-size: 5rem;
     text-align: center;
@@ -215,7 +215,9 @@ ul li label {
     transform: scale(var(--hover-scale-value)) translateY(-5px);
 }
 
+
 /* :hover    */
+
 .sidenav {
     min-width: 29rem;
 }
@@ -271,7 +273,7 @@ h4 {
 
 .wrapper {
     height: 100vh;
-    background: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat;
+    background: url(https://images.unsplash.com/photo-1516663713099-37eb6d60c825?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJsYWNrfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60) no-repeat;
     background-size: cover;
 }
 
@@ -287,7 +289,6 @@ h4 {
     height: 100%;
     will-change: transform;
     transition: transform var(--duration) ease-in-out, visibility var(--duration) linear;
-  
 }
 
 aside.aside-menu a.close-nav {
@@ -345,13 +346,13 @@ aside.aside-menu a.close-nav:hover {
     justify-content: space-between;
     height: 2rem;
     padding: 2rem;
-    color: rgb(254,96,56);
+    color: rgb(254, 96, 56);
     font-weight: bolder;
 }
 
 .nav-btns a:link,
 a:visited {
-    color: rgb(254,96,56);
+    color: rgb(254, 96, 56);
     text-decoration: none;
     font-size: 2rem;
     font-family: 'Big Shoulders Stencil Text', cursive;
@@ -359,8 +360,9 @@ a:visited {
 
 .nav-btns a:active,
 a:hover {
-    color: rgb(254,96,56);
+    color: rgb(254, 96, 56);
 }
-.category{
+
+.category {
     text-align: center;
 }

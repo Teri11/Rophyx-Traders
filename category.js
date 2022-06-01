@@ -1,4 +1,4 @@
-(function () {
+(function() {
 
     let closeLinkClass = '.close-nav';
     let openLinkClass = '.open-nav';
@@ -35,24 +35,18 @@
     if (document.querySelector(asideMenuClass) === null) {
         return false;
     }
-    document.onkeyup = function (e) {
+    document.onkeyup = function(e) {
         e = e || window.event;
         keyPress(e);
     };
     console.log('loaded!')
 
-    // let el = document.body;
-    // if (el.classList.contains("preload")) {
-    //     el.classList.remove('preload');
-    // }
+
 })();
 
-document.addEventListener("DOMContentLoaded",function(){
+document.addEventListener("DOMContentLoaded", function() {
     let el = document.body;
-if (el.classList.contains("preload")) {
-    el.classList.remove('preload');
-}
+    if (el.classList.contains("preload")) {
+        el.classList.remove('preload');
+    }
 });
-
-
-

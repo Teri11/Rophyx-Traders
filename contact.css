@@ -5,9 +5,6 @@
     box-sizing: border-box;
 }
 
-
-/* Pretty Stuff */
-
 .contact-form-container {
     background: white;
     font-family: "Lato", sans-serif;
@@ -172,10 +169,7 @@ form button {
     padding-bottom: 40px;
 }
 
-
-/* Layout Stuff */
-
-body {
+.body {
     background: url("https://images.unsplash.com/photo-1612670940073-8aed2145ebc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
     width: 100vw;
     position: relative;
