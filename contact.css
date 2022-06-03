@@ -1,220 +1,138 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
-
-
-/* Pretty Stuff */
-
-.contact-form-container {
-    background: white;
-    font-family: "Lato", sans-serif;
-}
-
-.contact-us {
-    position: relative;
-    width: 250px;
-    background: #f00707ef;
-    overflow: hidden;
-}
-
-.contact-us:before {
-    position: absolute;
-    content: "";
-    bottom: -50px;
-    left: -100px;
-    height: 400px;
-    width: 400px;
-    background: #f00707ef;
-    transform: rotate(25deg);
-}
-
-.contact-us:after {
-    position: absolute;
-    content: "";
-    bottom: -80px;
-    right: -100px;
-    height: 270px;
-    width: 400px;
-    background: #f00707ef;
-    transform: rotate(-25deg);
-}
-
-.contact-header {
-    color: white;
-    position: absolute;
-    transform: rotate(-90deg);
-    top: 120px;
-    left: -40px;
-}
-
-.contact-header h1 {
-    font-size: 1.5rem;
-}
-
-.social-bar {
-    position: absolute;
-    bottom: 20px;
-    left: 75px;
-    z-index: 1;
-    width: 100px;
-}
-
-.social-bar ul {
-    list-style-type: none;
-    color: white;
-}
-
-.social-bar ul li {
-    display: inline-block;
-    color: white;
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
-    text-align: center;
-    margin-right: -4px;
-    font-size: 1.2rem;
-}
-
-.header {
-    text-align: center;
-    padding: 20px 0;
-    color: black;
-}
-
-.header h1 {
-    font-weight: normal;
-}
-
-.header h2 {
-    margin-top: 10px;
-    font-weight: 300;
-}
-
-.address,
-.email,
-.phone {
-    text-align: center;
-    padding: 20px 0;
-    color: black;
-}
-
-.address h3,
-.email h3,
-.phone h3 {
-    font-size: 1rem;
-    font-weight: 300;
-}
-
-.address i,
-.email i,
-.phone i {
-    color: #f00707ef;
-    font-size: 1.7rem;
-    margin-bottom: 20px;
-}
-
-form {
-    position: relative;
-    width: 440px;
-    margin: 0 auto;
-    padding: 20px;
-    box-shadow: 0 0 5px #f00707ef;
-    background: white;
-}
-
-form input,
-form textarea {
-    background: white;
-    display: block;
-    margin: 20px auto;
-    width: 100%;
-    border: 0;
-}
-
-form input {
-    height: 40px;
-    line-height: 40px;
-    outline: 0;
-    border-bottom: 1px solid rgba(68, 68, 68, 0.3);
-    font-size: 1rem;
-    color: #f00707ef;
-}
-
-form textarea {
-    border-bottom: 1px solid rgba(68, 68, 68, 0.3);
-    resize: none;
-    outline: none;
-    font-size: 1rem;
-    font-family: lato;
-    color: #f00707ef;
-}
-
-form button {
-    position: absolute;
-    display: block;
-    height: 40px;
-    width: 250px;
-    left: 95px;
-    border: 0;
-    border-radius: 20px;
-    bottom: -20px;
-    background: #f00707ef;
-    color: white;
-    font-size: 1.1rem;
-    font-weight: 300;
-    outline: none;
-}
-
-.contact-form {
-    padding-bottom: 40px;
-}
-
-
-/* Layout Stuff */
 
 body {
-    background: url("https://images.unsplash.com/photo-1612670940073-8aed2145ebc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
-    width: 100vw;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777;
+    background: orangered;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
     position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    padding-top: 10%;
 }
 
-.contact-form-container {
-    width: 800px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 0.5fr 2fr;
-    grid-template-areas: "contact-us header header header" "contact-us address phone email" "contact-us contact-form contact-form contact-form";
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+    font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
 }
 
-.contact-us {
-    grid-area: contact-us;
+#contact {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 50px 0;
 }
 
-.header {
-    grid-area: header;
+#contact h3 {
+    color: #F96;
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
 }
 
-.address {
-    grid-area: address;
+#contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
 }
 
-.phone {
-    grid-area: phone;
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
 }
 
-.email {
-    grid-area: email;
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #CCC;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
 }
 
-.contact-form {
-    grid-area: contact-form;
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #AAA;
+}
+
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: black;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+    background: white;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #999;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
 }
