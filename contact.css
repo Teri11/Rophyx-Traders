@@ -1,138 +1,223 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
-* {
-    margin: 0;
+li,
+ul {
+    list-style: none;
     padding: 0;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
+    margin: 0
 }
 
-body {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 30px;
-    color: #777;
-    background: orangered;
-}
-
-.container {
-    max-width: 400px;
-    width: 100%;
-    margin: 0 auto;
+.sec-title {
     position: relative;
+    padding-bottom: 40px
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea,
-#contact button[type="submit"] {
-    font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+.sec-title .title {
+    position: relative;
+    color: orangered;
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 50px;
+    margin-bottom: 15px;
+    display: inline-block;
+    text-transform: capitalize
 }
 
-#contact {
-    background: #F9F9F9;
-    padding: 25px;
-    margin: 50px 0;
+.sec-title .title:before {
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: 7px;
+    width: 40px;
+    height: 1px;
+    background-color: #bbb
 }
 
-#contact h3 {
-    color: #F96;
-    display: block;
+.sec-title h2 {
+    position: relative;
+    color: #252525;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.5em;
+    display: block
+}
+
+.sec-title.light h2 {
+    color: #fff
+}
+
+.contact-page-section {
+    position: relative;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.contact-page-section .inner-container {
+    position: relative;
+    z-index: 1;
+    background-color: orangered;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, .1)
+}
+
+.contact-page-section .form-column {
+    position: relative;
+    padding: 0 0 0 15px
+}
+
+.contact-page-section .form-column .inner-column {
+    position: relative;
+    padding: 60px 45px 30px;
+    background-color: #fff
+}
+
+.contact-page-section .info-column {
+    position: relative
+}
+
+.contact-page-section .info-column .inner-column {
+    position: relative;
+    padding: 60px 35px
+}
+
+.contact-page-section .info-column h2 {
+    position: relative;
+    color: #fff;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 700;
+    line-height: 1.4em;
+    margin-bottom: 45px
 }
 
-#contact h4 {
-    margin: 5px 0 15px;
+.contact-page-section .info-column .list-info {
+    position: relative;
+    margin-bottom: 60px
+}
+
+.contact-page-section .info-column .list-info li {
+    position: relative;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.8em;
+    padding-left: 45px
+}
+
+.contact-page-section .info-column .list-info li:last-child {
+    margin-bottom: 0
+}
+
+.contact-page-section .info-column .list-info li i {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    color: #fff;
+    font-size: 30px
+}
+
+.contact-form {
+    position: relative
+}
+
+.contact-form .form-group {
+    position: relative;
+    margin-bottom: 20px
+}
+
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form textarea {
+    position: relative;
     display: block;
-    font-size: 13px;
-}
-
-fieldset {
-    border: medium none !important;
-    margin: 0 0 10px;
-    min-width: 100%;
-    padding: 0;
     width: 100%;
+    height: 60px;
+    color: #222;
+    font-size: 14px;
+    line-height: 38px;
+    padding: 10px 30px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -webkit-transition: all .3s ease
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea {
-    width: 100%;
-    border: 1px solid #CCC;
-    background: #FFF;
-    margin: 0 0 5px;
-    padding: 10px;
+.contact-form input[type=text]:focus,
+.contact-form input[type=email]:focus,
+.contact-form textarea:focus {
+    border-color: orangered
 }
 
-#contact input[type="text"]:hover,
-#contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
-#contact textarea:hover {
-    -webkit-transition: border-color 0.3s ease-in-out;
-    -moz-transition: border-color 0.3s ease-in-out;
-    transition: border-color 0.3s ease-in-out;
-    border: 1px solid #AAA;
+.contact-form textarea {
+    height: 250px;
+    resize: none
 }
 
-#contact textarea {
-    height: 100px;
-    max-width: 100%;
-    resize: none;
-}
-
-#contact button[type="submit"] {
+.contact-form .theme-btn {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+    text-transform: capitalize;
+    padding: 16px 39px;
+    border: 2px solid orangered;
+    font-family: Arimo, sans-serif;
+    background: orangered;
+    display: inline-block;
+    position: relative;
+    line-height: 24px;
     cursor: pointer;
-    width: 100%;
-    border: none;
-    background: black;
-    color: #FFF;
-    margin: 0 0 5px;
-    padding: 10px;
-    font-size: 15px;
+    color: #fff
 }
 
-#contact button[type="submit"]:hover {
-    background: white;
-    -webkit-transition: background 0.3s ease-in-out;
-    -moz-transition: background 0.3s ease-in-out;
-    transition: background-color 0.3s ease-in-out;
+.contact-form .theme-btn:hover {
+    color: black;
+    border-color: black;
+    background: 0 0
 }
 
-#contact button[type="submit"]:active {
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+.contact-form input.error,
+.contact-form select.error,
+.contact-form textarea.error {
+    border-color: red!important
 }
 
-#contact input:focus,
-#contact textarea:focus {
-    outline: 0;
-    border: 1px solid #999;
+.contact-form label.error {
+    display: block;
+    line-height: 24px;
+    padding: 5px 0 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: red;
+    font-weight: 500
 }
 
-::-webkit-input-placeholder {
-    color: #888;
+.social-icon-four {
+    position: relative
 }
 
-:-moz-placeholder {
-    color: #888;
+.social-icon-four li {
+    position: relative;
+    margin-right: 18px;
+    display: inline-block
 }
 
-::-moz-placeholder {
-    color: #888;
+.social-icon-four li.follow {
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 20px
 }
 
-:-ms-input-placeholder {
-    color: #888;
+.social-icon-four li a {
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease
+}
+
+.social-icon-four li a:hover {
+    color: #222
 }
