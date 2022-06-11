@@ -1480,7 +1480,7 @@ footer .newsletter i {
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
-  color:#3366cc;
+  color:rgb(254, 96, 56);
   text-decoration:none;
 }
 .footer-links.inline li
