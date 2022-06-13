@@ -986,6 +986,7 @@ header .arrow-down {
     height: 350px;
     background: url("https://images.unsplash.com/photo-1563549054067-2a7517131c39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fHBob25lc3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60") fixed center;
     background-size: cover;
+   
 }
 
 
@@ -1090,6 +1091,7 @@ header .arrow-down {
     background: url("https://images5.alphacoders.com/991/thumbbig-991780.webp") fixed center;
     background-size: cover;
     height: 400px;
+   
 }
 
 
@@ -1211,6 +1213,7 @@ footer .newsletter i {
 .contact-header {
     background-image: url("https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988526/contact-food.jpg");
     height: 40vh;
+
 }
 
 .contact {
